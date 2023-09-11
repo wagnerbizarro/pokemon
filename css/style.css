@@ -1,0 +1,25 @@
+body {
+    padding-bottom: 500px;
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+img {
+    width: 100px; 
+    height: 100px;
+}
+/*Container*/
+.container {
+    background-color: #eee;
+    border: 2px solid red;
+    padding: 15px;
+
+    /*Flexbox*/
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
